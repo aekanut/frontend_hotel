@@ -10,10 +10,10 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">หน้าหลัก</a>
+                    <a class="nav-link" aria-current="page" href="/frontend_hotel/main.php">หน้าหลัก</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">ยืนยันการชำระเงิน</a>
+                    <a class="nav-link" href="/frontend_hotel/confirm.php">ยืนยันการชำระเงิน</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">รีวิวห้องพัก</a>
@@ -42,6 +42,7 @@
         </div>
     </div>
 </nav>
+<div style="height: 3px; background-color: rgb(107, 107, 107);"></div>
 EOD;
     echo $header;
 ?>

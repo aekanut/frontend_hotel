@@ -36,7 +36,7 @@
             width: 20%;
         }
     </style>
-    <title>Document</title>
+    <title>หน้าหลัก</title>
 </head>
 
 <body>
@@ -150,6 +150,72 @@
             <div class="mx-2 fs-5">ภูเก็ต</div>
             <div class="mx-2 fs-5">เชียงใหม่</div>
         </div>
+
+        <div class="container">
+            <div class="row justify-content-evenly m-4">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www.digopaul.com/wp-content/uploads/related_images/2015/09/09/square_1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www.digopaul.com/wp-content/uploads/related_images/2015/09/09/square_1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www.digopaul.com/wp-content/uploads/related_images/2015/09/09/square_1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-evenly m-4">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www.digopaul.com/wp-content/uploads/related_images/2015/09/09/square_1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www.digopaul.com/wp-content/uploads/related_images/2015/09/09/square_1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www.digopaul.com/wp-content/uploads/related_images/2015/09/09/square_1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-5 text-center">
+            รีวิวเว็บไซต์
+        </h2>
 
         <div class="container">
             <div class="row justify-content-evenly m-4">
