@@ -153,7 +153,7 @@
         <div class="container">
             <div class="row my-3">
                 <div class="col-3 border-top border-start border-bottom rounded-start border-secondary border-3 bg-white">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
                         <center>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -167,11 +167,11 @@
                                 </div>
                             </div>
                         </center>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
@@ -208,7 +208,7 @@
 
             <div class="row my-3">
                 <div class="col-3 border-top border-start border-bottom rounded-start border-secondary border-3 bg-white">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
                         <center>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -222,11 +222,11 @@
                                 </div>
                             </div>
                         </center>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
@@ -263,7 +263,7 @@
 
             <div class="row my-3">
                 <div class="col-3 border-top border-start border-bottom rounded-start border-secondary border-3 bg-white">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
                         <center>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -277,11 +277,11 @@
                                 </div>
                             </div>
                         </center>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
@@ -318,7 +318,7 @@
 
             <div class="row my-3">
                 <div class="col-3 border-top border-start border-bottom rounded-start border-secondary border-3 bg-white">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
                         <center>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -332,11 +332,11 @@
                                 </div>
                             </div>
                         </center>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
