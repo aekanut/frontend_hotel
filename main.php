@@ -108,7 +108,7 @@
                                                 <div class="col-1">
                                                     <center>
                                                         <div class="material-icons fs-1 fw-bold mx-3">
-                                                            date_range
+                                                            people
                                                         </div>
                                                     </center>
                                                 </div>

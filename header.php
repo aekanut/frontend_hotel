@@ -2,7 +2,7 @@
     $header = <<<EOD
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="/frontend_hotel/main.php">Logo</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -13,7 +13,10 @@
                     <a class="nav-link" aria-current="page" href="/frontend_hotel/main.php">หน้าหลัก</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/frontend_hotel/confirm.php">ยืนยันการชำระเงิน</a>
+                    <a class="nav-link" href="/frontend_hotel/search.php">ค้นหาโรงแรม</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">ยืนยันการชำระเงิน</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">รีวิวห้องพัก</a>
