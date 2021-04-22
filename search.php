@@ -19,6 +19,10 @@
         #search_box {
             max-width: 98%;
         }
+
+        .scale {
+            transform: scale(1.20);
+        }
     </style>
 </head>
 
@@ -70,9 +74,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2 border">
+                <div class="col-2">
                     <div class="container px-0">
-                        <div class="row border rounded-5 rounded-3 border-secondary border-2 bg-white justify-content-between">
+                        <div class="row border rounded-3 border-secondary border-2 bg-white justify-content-between">
                             <div class="col-1">
                                 <center>
                                     <div class="material-icons fs-2 fw-bold mt-2">
@@ -82,15 +86,15 @@
                             </div>
                             <div class="col-10">
                                 <center>
-                                    <input class="form-control form-control-borderless fs-8 mt-1" id="checkIn" min="<?php echo date('Y-m-d'); ?>" value="<?php echo date('Y-m-d'); ?>" onchange="changeCheckOut(value)" type="date">
+                                    <input class="form-control form-control-sm form-control-borderless fs-8 my-2" id="checkIn" min="<?php echo date('Y-m-d'); ?>" value="<?php echo date('Y-m-d'); ?>" onchange="changeCheckOut(value)" type="date">
                                 </center>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-2 border">
+                <div class="col-2">
                     <div class="container px-0">
-                        <div class="row border rounded-5 rounded-3 border-secondary border-2 bg-white justify-content-between">
+                        <div class="row border rounded-3 border-secondary border-2 bg-white justify-content-between">
                             <div class="col-1">
                                 <center>
                                     <div class="material-icons fs-2 fw-bold mt-2">
@@ -100,11 +104,11 @@
                             </div>
                             <div class="col-10">
                                 <center>
-                                    <input class="form-control form-control-borderless fs-8 mt-1" id="checkOut" min="<?php
-                                                                                                                        $date = date('Y-m-d');
-                                                                                                                        $tomorrow = date('Y-m-d', strtotime($date . "+1 days"));
-                                                                                                                        echo $tomorrow;
-                                                                                                                        ?>" value="<?php
+                                    <input class="form-control form-control-sm form-control-borderless fs-8 my-2" id="checkOut" min="<?php
+                                                                                                                                        $date = date('Y-m-d');
+                                                                                                                                        $tomorrow = date('Y-m-d', strtotime($date . "+1 days"));
+                                                                                                                                        echo $tomorrow;
+                                                                                                                                        ?>" value="<?php
                                                                                                                                     $date = date('Y-m-d');
                                                                                                                                     $tomorrow = date('Y-m-d', strtotime($date . "+1 days"));
                                                                                                                                     echo $tomorrow;
@@ -114,19 +118,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2 border">
+                <div class="col-2 border rounded-3 border-secondary border-2 bg-white">
                     <div class="container px-0 my-2">
-                        <div class="row">
+                        <div class="row justify-content-between">
                             <div class="col-1">
                                 <center>
-                                    <div class="material-icons fs-2 fw-bold mx-3">
+                                    <div class="material-icons fs-2 fw-bold">
                                         people
                                     </div>
                                 </center>
                             </div>
                             <div class="col-10">
                                 <center>
-                                    <select class="form-select form-select-borderless fs-8" id="people" aria-label="Default select example">
+                                    <select class="form-select form-select-sm form-select-borderless fs-8" id="people" aria-label="Default select example">
                                         <option selected value="2">2 ท่าน</option>
                                         <option value="3">3 ท่าน</option>
                                         <option value="4">4 ท่าน</option>
@@ -136,10 +140,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-1 border">s</div>
+                <div class="col-1">
+                    <button type="button" class="btn btn-secondary btn-lg my-1 mx-0 scale" onclick="goSearch()">ค้นหา</button>
+                </div>
             </div>
         </div>
 
+        <div style="height: 3px; background-color: rgb(107, 107, 107);"></div>
+        
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
     </body>
     <script>
         const changeCheckOut = (date) => {
