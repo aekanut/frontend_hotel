@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+    </script>
     <title>หน้าห้องพัก</title>
 
     <style>
@@ -31,33 +35,8 @@
         <?php include 'header.php'; ?>
     </header>
 
-    <body>
-        <script>
-            const changeCheckOut = (date) => {
-                let checkOut = document.getElementById('checkOut')
-                let newDate = new Date(date)
-                newDate.setDate(newDate.getDate() + 1)
-                let justDate = newDate.getMonth() + 1
-                if (justDate <= 9) {
-                    justDate = '0' + justDate
-                }
-                newDate = `${newDate.getFullYear()}-${justDate}-${newDate.getDate()}`
-                checkOut.min = newDate
-                checkOut.value = newDate
-            }
-
-            const goSearch = () => {
-                const searchText = document.getElementById('searchText').value
-                const checkIn = document.getElementById('checkIn').value
-                const checkOut = document.getElementById('checkOut').value
-                const people = document.getElementById('people').value
-                console.log(searchText, checkIn, checkOut, people)
-            }
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
-        </script>
+    <main>
+        
         <div class="container my-3" id="search_box">
             <div class="row justify-content-around border border-3 p-2 rounded-2 border-secondary">
                 <div class="col-3">
@@ -371,7 +350,7 @@
                 </div>
             </div>
         </div>
-    </body>
+    </main>
     <script>
         const changeCheckOut = (date) => {
             let checkOut = document.getElementById('checkOut')
@@ -394,10 +373,7 @@
             console.log(searchText, checkIn, checkOut, people)
         }
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
-    </script>
+    
 </body>
 
 </html>

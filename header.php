@@ -19,7 +19,7 @@
                     <a class="nav-link" href="">ยืนยันการชำระเงิน</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">รีวิวห้องพัก</a>
+                    <a class="nav-link" href="/frontend_hotel/review.php">รีวิวห้องพัก</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">ร้องเรียน</a>
