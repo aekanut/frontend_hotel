@@ -46,27 +46,57 @@
                 <button style="font-size:calc(.9rem + .9vw);" class="btn btn-secondary px-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     รีวิว
                 </button>
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <input type="text" class="w-100 mx-2">
-                            </div>
-                            <div class="modal-body">
-                                ...
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <form action="">
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <input type="text" class="w-100 mx-4 form-control fs-2 border-secondary" placeholder="เขียนหัวข้อรีวิว" required>
+                                </div>
+                                <div class="modal-body">
+                                    <center>
+                                        <div class="container">
+                                            <div class="row justify-content-around">
+                                                <div class="col-3 border rounded border-secondary">
+                                                    <center>
+                                                        <p class="fs-4 my-5">ให้คะแนน</p>
+                                                        <h2 id="changeText" class="">
+                                                            5 คะแนน
+                                                        </h2>
+                                                        <input type="range" class="form-range w-50 my-4" min="0" max="10" onchange="changeRange()" id="customRange">
+                                                    </center>
+                                                </div>
+                                                <div class="col-8">
+                                                    <textarea class="w-100 form-control fs-4 mx-2 border-secondary" rows="8" placeholder="ข้อความรีวิว"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </center>
+                                </div>
+                                <div class="modal-footer">
+                                    <div class="mx-4">
+                                        <button type="submit" class="btn btn-primary">บันทึก</button>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
+        </div>
+
+        <div class="">
         </div>
     </main>
 
+    <script>
+        const changeRange = () => {
+            const changeValue = document.getElementById('customRange').value
+            document.getElementById('changeText').innerHTML = changeValue + ' คะแนน'
+        }
+    </script>
 </body>
 
 </html>
