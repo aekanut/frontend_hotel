@@ -150,7 +150,7 @@
             </div>
 
             <center>
-                <button type="button" class="btn btn-secondary mt-3 fs-3">ชำระเงิน</button>
+                <a href="/frontend_hotel/confirm.php" type="button" class="btn btn-secondary mt-3 fs-3">ชำระเงิน</a>
             </center>
         </div>
     </div>
