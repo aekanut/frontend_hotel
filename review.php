@@ -35,7 +35,7 @@
         <div name="image" class="d-flex my-2 justify-content-between" style="height: 350px;">
             <img src="https://www.digopaul.com/wp-content/uploads/related_images/2015/09/09/square_1.jpg" width="350px" alt="">
             <img src="https://www.digopaul.com/wp-content/uploads/related_images/2015/09/09/square_1.jpg" width="350px" alt="">
-            <div class="border rounded border-secondary p-5 border-2 mx-4" style="width: 45%;">
+            <div class="border rounded border-secondary p-5 border-2 mx-5" style="width: 45%;">
                 <center>
                     ข้อมูลที่พัก
                 </center>
