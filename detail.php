@@ -51,7 +51,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-lg-evenly" id="navbarText">
                 <div class="">
-                    <div class="center-thing mx-5 my-2">
+                    <div class="center-thing dot-active mx-5 my-2">
                         1
                     </div>
                     <center class="">รายละเอียดหอพัก</center>
@@ -63,7 +63,7 @@
                     <center class="">ชำระเงิน</center>
                 </div>
                 <div class="">
-                    <div class="center-thing dot-active mx-5 my-2">
+                    <div class="center-thing mx-5 my-2">
                         3
                     </div>
                     <center class="">ยืนยันการชำระเงิน</center>
@@ -74,8 +74,57 @@
     </nav>
     <div style="height: 3px; background-color: rgb(107, 107, 107);"></div>
 
-    
-
+    <div class="container border border-3 rounded-3 border-secondary mt-5 w-50">
+        <div class="row m-4 fs-4">
+            <div class="d-flex">
+                <div>
+                    15 พ.ค. 2021 -
+                </div>
+                <div class="mx-2">
+                    17 พ.ค. 2021
+                </div>
+                <div class="ms-auto">
+                    2 คืน
+                </div>
+            </div>
+        </div>
+        <div class="row m-4">
+            <h2>
+                ชื่อโรงแรม 1
+            </h2>
+        </div>
+        <div class="row m-4">
+            <h4>
+                ชื่อห้องพัก
+            </h4>
+        </div>
+        <div class="row" style="height: 3px; background-color: rgb(107, 107, 107);"></div>
+        <div class="row m-4">
+            <div class="d-flex">
+                <div class="material-icons fs-1 fw-bold">
+                    people
+                </div>
+                <div class="mx-4 my-1 fs-4">
+                    ห้องพัก 1 ห้อง,
+                </div>
+                <div class="mx-4 my-1 fs-4">
+                    ผู้ใหญ่ 2 คน
+                </div>
+            </div>
+        </div>
+        <div class="row" style="height: 3px; background-color: rgb(107, 107, 107);"></div>
+        <div class="row">
+            <div class="d-flex fs-4">
+                <div class="m-4 pb-3">
+                    ราคาที่ต้องจ่าย
+                </div>
+                <div class="ms-auto m-4 pb-3">
+                    2,500 บาท
+                </div>
+            </div>
+        </div>
+    </div>
+    <center><a href="/frontend_hotel/pay.php" type="button" class="btn btn-secondary fs-4 mt-3">ยืนยันการจอง</a></center>
 </body>
 
 </html>
