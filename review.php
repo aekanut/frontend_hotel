@@ -32,10 +32,14 @@
             <p style="font-size:calc(1.375rem + 1.5vw);" class="mb-2 mx-5">โรงแรม 1</p>
         </div>
 
-        <div name="image" class="d-flex justify-content-between my-2" style="height: 350px;">
-            <img src="https://www.digopaul.com/wp-content/uploads/related_images/2015/09/09/square_1.jpg" alt="">
-            <img src="https://www.digopaul.com/wp-content/uploads/related_images/2015/09/09/square_1.jpg" alt="">
-            <img src="https://www.digopaul.com/wp-content/uploads/related_images/2015/09/09/square_1.jpg" alt="">
+        <div name="image" class="d-flex my-2 justify-content-between" style="height: 350px;">
+            <img src="https://www.digopaul.com/wp-content/uploads/related_images/2015/09/09/square_1.jpg" width="350px" alt="">
+            <img src="https://www.digopaul.com/wp-content/uploads/related_images/2015/09/09/square_1.jpg" width="350px" alt="">
+            <div class="border rounded border-secondary p-5 border-2 mx-4" style="width: 45%;">
+                <center>
+                    ข้อมูลที่พัก
+                </center>
+            </div>
         </div>
 
         <div name="name" class="d-flex flex justify-content-between my-4">
@@ -87,7 +91,72 @@
             </div>
         </div>
 
-        <div class="">
+        <div class="reviewed">
+            <div class="container">
+                <div class="row my-3" style="height: 270px;">
+                    <div class="col-4 border-top border-start border-bottom rounded-start border-secondary border-3 bg-white">
+                        <center>
+                            <h1 class="mt-3 mx-3 py-4 fw-bold" style="font-size: 50px;">
+                                9 คะแนน
+                            </h1>
+                        </center>
+
+                        <div class="fs-2 mx-3 fw-bold">
+                            จาก
+                        </div>
+                        <div class="fs-2 mx-3">
+                            บอล
+                        </div>
+
+                    </div>
+                    <div class="col-8 border border-secondary rounded-end border-3 bg-white">
+                        <div class="container">
+                            <div class="row">
+                                <div class="fw-bold p-2 mx-2 my-2" style="font-size: 50px;">
+                                    หัวข้อที่รีวิวแล้ว
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p style="word-wrap: break-word;" class="fs-5">
+                                    ข้อความที่รีวิว
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row my-3" style="height: 270px;">
+                    <div class="col-4 border-top border-start border-bottom rounded-start border-secondary border-3 bg-white">
+                        <center>
+                            <h1 class="mt-3 mx-3 py-4 fw-bold" style="font-size: 50px;">
+                                9 คะแนน
+                            </h1>
+                        </center>
+
+                        <div class="fs-2 mx-3 fw-bold">
+                            จาก
+                        </div>
+                        <div class="fs-2 mx-3">
+                            บอล
+                        </div>
+
+                    </div>
+                    <div class="col-8 border border-secondary rounded-end border-3 bg-white">
+                        <div class="container">
+                            <div class="row">
+                                <div class="fw-bold p-2 mx-2 my-2" style="font-size: 50px;">
+                                    หัวข้อที่รีวิวแล้ว
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p style="word-wrap: break-word;" class="fs-5">
+                                    ข้อความที่รีวิว
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
