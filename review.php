@@ -45,7 +45,7 @@
                     <a class="nav-link active" href="/frontend_hotel/review.php">รีวิวห้องพัก</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">ร้องเรียน</a>
+                    <a class="nav-link" href="/frontend_hotel/complain.php">ร้องเรียน</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">ห้องที่จอง</a>
