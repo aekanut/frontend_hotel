@@ -125,12 +125,7 @@
         
     </div>
 
-    <div class="container w-50">
-        <div class="row">
-            <h1 class="my-4">
-                ห้องที่จอง
-            </h1>
-        </div>
+    <div class="container w-50 my-3">
         <div class="row border border-3 rounded-3 border-secondary mx-1">
             <div class="d-flex fs-4 m-3">
                 <div class=" fw-bold">
