@@ -23,7 +23,7 @@
             font-family: 'Prompt', sans-serif !important;
         }
     </style>
-    <title>ร้องเรียน</title>
+    <title>ห้องที่จอง</title>
 </head>
 
 <body>

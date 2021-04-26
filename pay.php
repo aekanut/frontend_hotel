@@ -38,7 +38,7 @@
             color: white;
         }
     </style>
-    <title>Document</title>
+    <title>ชำระเงิน</title>
 </head>
 
 <body>

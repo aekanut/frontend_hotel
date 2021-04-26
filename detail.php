@@ -38,7 +38,7 @@
             color: white;
         }
     </style>
-    <title>Document</title>
+    <title>รายละเอียดหอพัก</title>
 </head>
 
 <body>
